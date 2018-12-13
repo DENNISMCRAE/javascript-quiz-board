@@ -47,7 +47,7 @@ $(".scoreboard").hide();
       }
       })
 
-      result+=mean;
+      // result+=mean;
     })
 
 
@@ -65,7 +65,7 @@ $(".scoreboard").hide();
           if(answer === 5) {
             sum +=10;
             alert("Total points: "+sum);
-            alert("Mean is: "+mean);
+            // alert("Mean is: "+mean);
           }
           })
           alert(sum);
