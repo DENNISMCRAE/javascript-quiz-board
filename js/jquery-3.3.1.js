@@ -10118,12 +10118,6 @@ jQuery.each( { scrollLeft: "pageXOffset", scrollTop: "pageYOffset" }, function( 
 				return win ? win[ prop ] : elem[ method ];
 			}
 
-			if ( win ) {
-				win.scrollTo(
-					!top ? val : win.pageXOffset,
-					top ? val : win.pageYOffset
-				);
-
 			} else {
 				elem[ method ] = val;
 			}

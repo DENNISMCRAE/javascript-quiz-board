@@ -1,5 +1,5 @@
 ## Project name.
-Quiz Board
+javaScript Quiz Board
 ######## Project description.
 Its a webpage that tests the about programming, 2018/12/10
 #### By:-

@@ -1,54 +1,33 @@
-// //user interface logic
-// $(document).ready(function() {
-//   $(".scoreboard").hide();
-//   $("#submit").click(function() {
-//     event.preventDefault();
-//     $("#webbased").hide();
-//     $(".scoreboard").show();
-//     var result = 0;
-//     // $("#submit").click(function(event) {
-//     var answer1 = parseInt($('input[name=answer1]:checked').val());
-//     var answer2 = parseInt($('input[name=answer2]:checked').val());
-//     var answer3 = parseInt($('input[name=answer3]:checked').val());
-//     var answer4 = parseInt($('input[name=answer4]:checked').val());
-//     var answer5 = parseInt($('input[name=javascript1]:checked').val());
-//     var answer6 = parseInt($('input[name=javascript2]:checked').val());
-//     var answer7 = parseInt($('input[name=javascript3]:checked').val());
-//     var answer8 = parseInt($('input[name=question1]:checked').val());
-//     var answer9 = parseInt($('input[name=question2]:checked').val());
-//     var answers = [answer1, answer2, answer3, answer4, answer5, answer6, answer7, answer8, answer9];
-//
-//     for (var answer in answers) {
-//       result += answers[answer];
-//     }
-//
-//     // alert(result);
-//
-//     $(".scoreboard").html(`<p>Your Score is ${result} out of 45</p>`);
-//   });
-// });
-
 //user interface logic
 $(document).ready(function() {
-$("#JS").hide();
-$("#Oop").hide();
+$(".js").hide();
+$(".oop").hide();
+$(".scoreboard").hide();
   $("#submit").click(function(){
-    $("#JS").show();
-    $("#webbased").hide();
-    $("#Oop").hide();
+    $(".js").show();
+    $(".webbased").hide();
+    $(".oop").hide();
+    $(".scoreboard").hide();
   });
 
-  $("#submit2").click(function(){
-    $("#JS").hide();
-    $("#webbased").hide();
-    $("#Oop").show();
-    answer()
+  $("#submit1").click(function(){
+    $(".js").hide();
+    $(".webbased").hide();
+    $(".scoreboard").hide();
+    $(".oop").show();
 
-    $("#submit2").click(function(event) {
+
+    $("#submit1").click(function(event) {
       event.preventDefault();
       })
   });
-
+  $("#submit2").click(function(){
+    $(".js").hide();
+    $(".webbased").hide();
+    $(".oop").hide();
+    $(".scoreboard").show();
+    answer()
+  });
   var result = 0;
 
   $("#submit").click(function(event) {
@@ -59,19 +38,21 @@ $("#Oop").hide();
     var answer3 = parseInt($('input[name=answer3]:checked').val());
     var answer4 = parseInt($('input[name=answer4]:checked').val());
     var answers = [answer1,answer2,answer3,answer4];
-    console.log(answer1,answer2,answer3,answer4);
+    // console.log(answer1,answer2,answer3,answer4);
     answers.forEach(function(answer) {
       if(answer === 5) {
         mean +=10;
+        alert("Total points: "+answer);
+        alert("Mean is: "+mean);
       }
       })
-      alert(mean);
+
       result+=mean;
     })
 
 
 
-      $("#submit3").click(function(event) {
+      $("#submit2").click(function(event) {
         event.preventDefault();
         var sum = 0;
         var question1 = parseInt($('input[name=question1]:checked').val());
@@ -79,10 +60,12 @@ $("#Oop").hide();
         var question3 = parseInt($('input[name=question3]:checked').val());
         var question4 = parseInt($('input[name=question4]:checked').val());
         var question = [question1,question2,question3,question4];
-        console.log(question1,question2,question3,question4);
+        // console.log(question1,question2,question3,question4);
         question.forEach(function(answer) {
           if(answer === 5) {
             sum +=10;
+            alert("Total points: "+sum);
+            alert("Mean is: "+mean);
           }
           })
           alert(sum);
@@ -90,7 +73,7 @@ $("#Oop").hide();
           $("#scoreboard").text(result);
         })
 
-        // document.getElementById('scoreboard').innerHTML = result;
+        // document.getElementById('scoreboard').innerwebbased = result;
 
   });
 //business logic
@@ -104,58 +87,13 @@ $("#Oop").hide();
     javascript.forEach(function(answer) {
       if(answer === 5) {
         total +=10;
+        alert("Total points: "+total);
+        alert("Mean is: "+mean);
       }
       })
       alert(total);
       result+=total;
-  }
-
-
-
-// $("#next").click(function() {
-//   $(".html").hide();
-//   $(".js").show();
-// });
-// (document).ready(function() {
-//  $("#html").submit(function(event) {
-//
-// var answer1 = parseInt($('input[answer1]:checked').val());
-// $(document).ready(function() {
-//   $(".next").click(function() {
-//     $(".html").toggle();
-//     $(".js").toggle();
-//   });
-// });
-// var answer2 = parseInt($('input[answer2]:checked').val());
-// var answer3 = parseInt($('input[answer3]:checked').val());
-// var answer4 = parseInt($('input[answer4]:checked').val());
-//
-//
-// if((answer1=="" || answer2=="" || answer3=="" || answer4=="") || (answer1=="" && answer2=="" && answer3=="" && answer4=="")){
-//  incomplete_works.innerHTML = "Some question(s) NOT completed! Atempt all Questions";
-//  event.preventDefault();
-// }else {
-//
-//   var submit = answer1 + answer2 + answer3 + answer4 ;
-//   $("#html").toggle();
-//   $("#JS").toggle();
-//   yourResult.innerHTML = scoreboard ;
-//   event.preventDefault();
-// }
-//  });
-// });
-// var oTurn = $("#flipbook").turn({
-//     width: 400,
-//     height: 300,
-//     autoCenter: true,
-//     next:true
-// });
-//
-// $("#prev").click(function(e){
-//     e.preventDefault();
-//     oTurn.turn("previous");
-// });
-//
+    }
 $("#next").click(function(e){
     e.preventDefault();
     oTurn.turn("next");

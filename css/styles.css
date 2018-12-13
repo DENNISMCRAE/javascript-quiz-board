@@ -19,9 +19,6 @@ div.flip-control a {
   background-image:url("/home/dennismcrae/javascript-quiz-board/images/goweroffice.jpeg");
   background-size: cover;
 }
-html{
-  background-color: black;
-}
 #js{
   background-image: url("/home/dennismcrae/javascript-quiz-board/images/officeworkspace.jpeg");
   background-repeat: no-repeat;
@@ -94,4 +91,9 @@ a:hover{
   border-radius:30px;
   margin-top: 30px;
   color: blue;
+}
+.webbased{
+}
+.scoreboard{
+  display: none;
 }
