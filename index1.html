@@ -14,7 +14,7 @@
   <div class="container">
     <form class="html">
       <div id="webbased">
-        <h1><em><strong>Quiz Board</strong></em></h1>
+        <h1><em><strong>javaScript Quiz Board</strong></em></h1>
         <P>1. jQuery is a:<br>
           <input type="radio" name="answer1" value="5">JavaScript Library<br>
           <input type="radio" name="answer1" value="0">JavaScript Language<br>
@@ -41,16 +41,65 @@
         </p>
         <input id="submit" type="button" value="Submit">
         <div class="flip-control">
-          <a href="#home" id="prev"> &#8249; </a>
-          <a href="#js" id="next"> &#8250;</a>
+         <a href="#home" id="prev"> &#8249; </a>
+         <a href="#js" id="next"> &#8250;</a>
         </div>
-      </div>
+
+        <h1>Javascript</h1>
+        <P>1. What is the other name for Javascript :<br>
+          <input type="radio" name="javascript1" value="0">JS<br>
+          <input type="radio" name="javascript1" value="5">ECMA script<br>
+          <input type="radio" name="javascript1" value="0">Vanila JS<br>
+          <input type="radio" name="javascript1" value="0">All the above<br>
+          <P>2. Select the correct statement :<br>
+            <input type="radio" name="javascript2" value="5">Js is a server-side language<br>
+            <input type="radio" name="javascript2" value="0">Js is used only for web application<br>
+            <input type="radio" name="javascript2" value="0">All the above<br>
+            <input type="radio" name="javascript2" value="0">Js is used to create interactive web pages<br>
+          </p>
+          <P>3. What will console.log do :<br>
+            <input type="radio" name="javascript3" value="5">Print result in console<br>
+            <input type="radio" name="javascript3" value="0">Print value stored in a variable <br>
+            <input type="radio" name="javascript3" value="0">Print value name<br>
+            <input type="radio" name="javascript3" value="0">All the above<br>
+          </p>
+          <input id="submit" type="button" value="Submit">
+        <div class="flip-control">
+         <a href="#home" id="prev"> &#8249; </a>
+         <a href="#js" id="next"> &#8250;</a>
+        </div>
+
+          <h1>Object Oriented programming</h1>
+          <P>1. Is C++ a low level language:<br>
+            <input type="radio" name="question1" value="5">Yes<br>
+            <input type="radio" name="question1" value="0">No<br>
+            <input type="radio" name="question1" value="0">Not Sure<br>
+            <input type="radio" name="question1" value="0">None of the above<br>
+          </p>
+          <P>2. Which jQuery method is used to hide selected elements? :<br>
+            <input type="radio" name="question2" value="0">hidden()<br>
+            <input type="radio" name="question2" value="5">hide()<br>
+            <input type="radio" name="question2" value="0">visible(false)<br>
+            <input type="radio" name="question2" value="0">display(none)<br>
+          </p>
+          
+          <input id="submit" type="button" value="Submit">
+                  <div class="flip-control">
+                   <a href="#home" id="prev"> &#8249; </a>
+                   <a href="#js" id="next"> &#8250;</a>
+                  </div>
     </form>
-    <form class="js" id="js">
-    <div id="JS">
-      <h1>Javascript</h1>
-       <P>1. What is the other name for Javascript :<br>
-         <input type="radio" name="javascript1" value="0">JS<br>
-           <input type="radio" name="javascript1" value="5">ECMA script<br>
-             <input type="radio" name="javascript1" value="0">Vanila JS<br>
-               <input type="radio" name="javascript1" value="0">All the above<br>
+  </div>
+  <div class="scoreboard">
+
+    <h2>Score Board</h2>
+    <script>
+      $(".scoreboard").html(`<p>Your Score is ${result} out of 45</p>`);
+    </script>
+    <p></p>
+</div>
+
+    </div>
+</body>
+
+</html>
