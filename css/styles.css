@@ -16,7 +16,7 @@ div.flip-control a {
 #webbased{
   color: black;
   /* background-repeat: no-repeat; */
-  background-image:url("/home/dennismcrae/javascript-quiz-board/images/goweroffice.jpeg");
+  background-image:url("../images/goweroffice.jpeg");
   background-size: cover;
 }
 #js{
