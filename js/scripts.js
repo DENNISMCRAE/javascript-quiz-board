@@ -77,8 +77,8 @@ $(".scoreboard").hide();
     javascript.forEach(function(answer) {
       if(answer === 5) {
         total +=10;
-        // alert("Total points: "+total);
-        // alert("Mean is: "+mean);
+        alert("Total points: "+total);
+        alert("Mean is: "+mean);
       }
       })
       alert(total);
