@@ -20,20 +20,20 @@ div.flip-control a {
   background-size: cover;
 }
 #js{
-  background-image: url("/home/dennismcrae/javascript-quiz-board/images/officeworkspace.jpeg");
+  background-image: url("../images/officeworkspace.jpeg");
   background-repeat: no-repeat;
   font color: white;
   color: white;
   background-size: cover;
 }
 #Oop{
-  background-image:url("images/goweroffice.jpeg");
+  background-image:url("../images/goweroffice.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   color: blue;
 }
 body{
-  background-image: url("/home/dennismcrae/javascript-quiz-board/images/specsourcecode.jpeg");
+  background-image: url("../images/specsourcecode.jpeg");
   color: white;
   font-weight: bolder;
   font-size: 20px;
