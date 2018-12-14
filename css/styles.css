@@ -15,13 +15,14 @@ div.flip-control a {
 }
 #webbased{
   color: black;
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   background-image:url("/home/dennismcrae/javascript-quiz-board/images/goweroffice.jpeg");
   background-size: cover;
 }
 #js{
   background-image: url("/home/dennismcrae/javascript-quiz-board/images/officeworkspace.jpeg");
   background-repeat: no-repeat;
+  font color: white;
   color: white;
   background-size: cover;
 }
@@ -32,7 +33,10 @@ div.flip-control a {
   color: blue;
 }
 body{
-  background-image: url();
+  background-image: url("/home/dennismcrae/javascript-quiz-board/images/specsourcecode.jpeg");
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
 }
 .jumbotron{
   text-align: center;
@@ -95,5 +99,4 @@ a:hover{
 .webbased{
 }
 .scoreboard{
-  display: none;
 }

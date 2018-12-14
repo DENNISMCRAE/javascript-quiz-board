@@ -84,6 +84,9 @@ $(".scoreboard").hide();
       alert(total);
       result+=total;
     }
+$("#scoreboard").hide();
+$("#results").show();
+$('#result').text(correctScore);
 $("#next").click(function(e){
     e.preventDefault();
     oTurn.turn("next");
