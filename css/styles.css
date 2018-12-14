@@ -40,11 +40,11 @@ body{
   }
 .jumbotron{
   text-align: center;
-  margin-top: 25px;
+  /* margin-top: 25px;
   margin-right: 200px;
   margin-left: 200px;
   margin-bottom: 25px;
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Fredoka One', cursive; */
 }
 a:hover{
   cursor: pointer;
