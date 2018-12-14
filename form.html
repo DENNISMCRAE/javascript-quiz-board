@@ -9,11 +9,10 @@
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script src="js/scripts.js"></script>
 </head>
-
 <body>
   <div class="container">
     <form class="html">
-      <div class="webbased">
+      <div id="webbased">
         <h1><em><strong>javaScript Quiz Board</strong></em></h1>
         <P>1. jQuery is a:<br>
           <input type="radio" name="answer1" value="5">JavaScript Library<br>
@@ -45,8 +44,11 @@
           <a href="#js" id="next"> &#8250;</a>
         </div>
       </div>
-      <div class="js">
-        <h1>Javascript</h1>
+    </form>
+
+      <form class="js" id="js">
+        <div id="js">
+      <h1>Javascript</h1>
         <P>1. What is the other name for Javascript :<br>
           <input type="radio" name="javascript1" value="0">JS<br>
           <input type="radio" name="javascript1" value="5">ECMA script<br>
@@ -64,13 +66,19 @@
             <input type="radio" name="javascript3" value="0">Print value name<br>
             <input type="radio" name="javascript3" value="0">All the above<br>
           </p>
-          <input id="submit1" type="button" value="Submit">
+          <input type="button" id="submit2" value="Submit">
+       <div class="anchors">
+         <a href=".html" class="previous round">&#8249;</a>
+         <a href=".oop" class="next round">&#8250;</a>
+          <!-- <input id="submit1" type="button" value="Submit">
           <div class="flip-control">
             <a href="#home" id="prev"> &#8249; </a>
-            <a href="#js" id="next"> &#8250;</a>
+            <a href="#js" id="next"> &#8250;</a> -->
           </div>
       </div>
-      <div class="oop">
+    </form>
+      <form class="oop">
+      <div id="oop">
         <h1>Object Oriented programming</h1>
         <P>1. Is C++ a low level language:<br>
           <input type="radio" name="question1" value="5">Yes<br>
@@ -85,22 +93,31 @@
           <input type="radio" name="question2" value="0">display(none)<br>
         </p>
 
-        <input id="submit2" type="button" value="Submit">
-        <div class="flip-control">
-          <a href="#home" id="prev"> &#8249; </a>
-          <a href="#js" id="next"> &#8250;</a>
+        <br>
+
+      <input type="submit" id="submit3" value="Submit">
+      <br>
+      <h2>Score Board</h2>
+      <p>This is your total score</p>
+      <p id="scoreboard"></p>
         </div>
     </form>
-  </div>
-  <div class="scoreboard">
 
-    <h2>Score Board</h2>
-    <script>
-      $(".scoreboard").html(`<p>Your Score is ${result} out of 45</p>`);
-    </script>
-    <p></p>
+  </div>
+  </body>
+</html>
+
+        <!-- <input id="submit2" type="button" value="Submit">
+        <div class="flip-control">
+          <a href="#home" id="prev"> &#8249; </a>
+          <a href="#js" id="next"> &#8250;</a> -->
+        <!--
+      <br>
+      <h2>Score Board</h2>
+      <p>This is your total score</p>
+      <p id="scoreboard"></p>
   </div>
   </div>
 </body>
 
-</html>
+</html> -->

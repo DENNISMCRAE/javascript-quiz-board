@@ -1,6 +1,6 @@
 ## Project name.
 javaScript Quiz Board
-######## Project description.
+## Project description.
 Its a webpage that tests the about programming, 2018/12/10
 #### By:-
 *Dennis McRae Njuguna Gathogo*
@@ -8,9 +8,9 @@ Its a webpage that tests the about programming, 2018/12/10
 Its a webpage that has multiple questions and answers and tests on different programming languages and displays the score afterwards.
 ## Installation:-
 You use git clone to be able to download the documents in the github.
-###  Setup instructions:-
+##  Setup instructions:-
 Includes any scripts that need to be run if necessary.
-###Behaviours:-
+#Behaviours:-
 |Behaviour   | Input     |  Output |
 |------------|:---------:|---------------------------------:|
 |when you click the quiz link |click |goes to the jquery quiz board|
@@ -29,8 +29,8 @@ jQuery
 
 ## Support and contact details:-
 github.com/dennismcrae
-### Contact information.  +254 711 426074.
-### License and Copyright information:-
+## Contact information.  +254 711 426074.
+## License and Copyright information:-
 Copyright (c) 2018 Dennis McRae Njuguna Gathogo
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
