@@ -35,8 +35,8 @@ div.flip-control a {
 body{
   background-image: url("/home/dennismcrae/javascript-quiz-board/images/specsourcecode.jpeg");
   color: white;
-  /* font-weight: bolder;
-  font-size: 20px; */
+  font-weight: bolder;
+  font-size: 20px;
   }
 .jumbotron{
   text-align: center;
