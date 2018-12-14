@@ -28,7 +28,7 @@ JavaScript
 jQuery
 
 ## Support and contact details:-
-github.com/dennismcrae
+https://github.com/DENNISMCRAE/javascript-quiz-board
 ## Contact information.  +254 711 426074.
 ## License and Copyright information:-
 Copyright (c) 2018 Dennis McRae Njuguna Gathogo
