@@ -3,10 +3,10 @@ $(".js").hide();
 $(".oop").hide();
 $(".scoreboard").hide();
   $("#submit").click(function(){
-    $(".js").show();
-    $(".webbased").hide();
-    $(".oop").hide();
-    $(".scoreboard").hide();
+    // $(".js").show();
+    // $(".webbased").hide();
+    // $(".oop").hide();
+    // $(".scoreboard").hide();
   });
 
   $("#submit1").click(function(){
